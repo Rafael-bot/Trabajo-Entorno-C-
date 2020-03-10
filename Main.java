@@ -1,5 +1,5 @@
 
-import Ejercicios.Funcion2;
+import Ejercicios.Funcion;
 
 public class main {
 
