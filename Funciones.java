@@ -1,4 +1,3 @@
-package Ejercicios;
 
 public class Funcion {
 		
