@@ -3,16 +3,16 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
-public class Test1 {
+public class Rafa {
 	//-----------------------------------Caja Negra------------------------------------------------------
 		@Test
 		@DisplayName("Prueba Comprobacion Resultado")
 		void comprobResult() {
 			Funcion sum = new Funcion();
 			
-			int [] num = {5,5,4};
+			int [] num = {2001,02,06};
 			
-			assertEquals(14, sum.Funcion5(num));//La salida tiene que ser 14
+			assertEquals(2009, sum.Funcion5(num));//La salida tiene que ser 2009
 			
 		}
 
