@@ -2,8 +2,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.*;
 
-import pruebas.Operaciones;
-
 public class Test {
 	
 	static int cont = 0;
