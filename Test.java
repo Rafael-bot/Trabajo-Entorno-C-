@@ -31,7 +31,7 @@ public class Test {
 			
 			int [] num = {6,2,2001};
 			
-			assertEquals(2009, func5.Funcion5(num));//La salida tiene que ser 14
+			assertEquals(2009, func5.Funcion5(num));//La salida tiene que ser 2009
 			
 		}
 		
@@ -42,7 +42,7 @@ public class Test {
 			
 			int [] num = {18,07,1993};
 			
-			assertEquals(2018, func5.Funcion5(num));//La salida tiene que ser 14
+			assertEquals(2018, func5.Funcion5(num));//La salida tiene que ser 2018
 			
 		}
 		
@@ -53,7 +53,7 @@ public class Test {
 			
 			int [] num = {12,09,1989};
 			
-			assertEquals(2010, func5.Funcion5(num));//La salida tiene que ser 14
+			assertEquals(2010, func5.Funcion5(num));//La salida tiene que ser 2010
 			
 		}
 		
@@ -62,9 +62,9 @@ public class Test {
 		void  Vladi() {
 			cont++;
 			
-			int [] num = {5,5,4};
+			int [] num = {25,04,1998};
 			
-			assertEquals(14, func5.Funcion5(num));//La salida tiene que ser 14
+			assertEquals(2027,func5.Funcion5(num));//La salida tiene que ser 2027
 			
 		}
 		
