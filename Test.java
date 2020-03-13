@@ -22,7 +22,7 @@ public class Test {
 //-----------------------------------Caja Negra------------------------------------------------------
 	@Test
 	@DisplayName("Test Resultado True")
-	void testTrue() {
+	void testTrue() {//Tipo de Prueba --> Pruebas Funcionales
 		
 		cont++;
 		
@@ -33,7 +33,7 @@ public class Test {
 	
 	@Test
 	@DisplayName("Test Resultado False")
-	void testFalse() {
+	void testFalse() {//Tipo de Prueba --> Pruebas Funcionales
 		
 		cont++;
 		
