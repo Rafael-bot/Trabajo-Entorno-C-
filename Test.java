@@ -51,9 +51,9 @@ public class Test {
 		void Berny() {
 			cont++;
 			
-			int [] num = {5,5,4};
+			int [] num = {12,09,1989};
 			
-			assertEquals(14, func5.Funcion5(num));//La salida tiene que ser 14
+			assertEquals(2010, func5.Funcion5(num));//La salida tiene que ser 14
 			
 		}
 		
