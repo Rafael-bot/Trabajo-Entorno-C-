@@ -1,5 +1,24 @@
 
 public class Funcion {
+	
+	public Boolean Funcion1(int num) {
+		
+		Boolean resp = null;
+		
+		
+		int x = 7;
+		
+		if(num%x==0) {
+			
+			resp = true;
+			
+		}else {
+			resp = false;
+		}
+		
+		return resp;	
+		
+	}
 		
 	public Boolean Funcion2(int num) {
 		
@@ -34,6 +53,30 @@ public class Funcion {
 		return sum;
 		
 	}
+	
+		
+	public double Funcion6(double [] num1) {
+
+        double [] num2 = new double [num1.length];
+        double z = 4;
+        double w = 4;
+
+
+        for (int cont = 0; cont < num1.length; cont++) {
+            if (num1[cont]%2==0) {
+                num2[cont] = num1[cont]*z; 
+                System.out.print("  Numero Par -->  " + num2[cont]);
+            }else {
+                num2[cont] = num1[cont]*w; 
+                System.out.print("  Numero Impar -->  " +num2[cont]);
+            }
+        }
+
+        
+		return z;
+
+
+    }
 
 }
 
