@@ -38,7 +38,22 @@ public class Funcion {
 		return resp;	
 		
 	}
+	
+	public String Funcion4(String[] CadenaNombres) {
 
+		String CadenaConcatenada = null;
+		for (int i = 0; i < CadenaNombres.length; i++) {
+
+			CadenaConcatenada = CadenaNombres[0] + "-" + CadenaNombres[1] + "-" + CadenaNombres[2] + "-"
+					+ CadenaNombres[3];
+		}
+		CadenaConcatenada = CadenaConcatenada.replaceAll("[AaEeIiOoUu]", "");
+		CadenaConcatenada = CadenaConcatenada.replaceAll("[A-Z]", "");
+		System.out.println(CadenaConcatenada);
+		return CadenaConcatenada;
+
+	}
+	
 	public int Funcion5(int [] num) {
 		
 		int tam = num.length;
@@ -76,7 +91,20 @@ public class Funcion {
 		return z;
 
 
-    }
+        }
+	
+	public String[] Funcion7(String[] StringsCortados){
+
+		String[] cadenaDeNombres = { "Hipopotamo", "Murcielago", "Locomotora", "Sacapuntas" };
+
+		for (int i = 0; i < cadenaDeNombres.length; i++) {
+
+			cadenaDeNombres[i] = cadenaDeNombres[i].substring(4, 7);
+
+		}
+		System.out.println(Arrays.toString(cadenaDeNombres));
+		return cadenaDeNombres;
+	}
 
 }
 
