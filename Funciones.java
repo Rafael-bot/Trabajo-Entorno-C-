@@ -39,6 +39,20 @@ public class Funcion {
 		
 	}
 
+	public String Funcion4(String[] CadenaNombres) {
+
+		String CadenaConcatenada = null;
+		for (int i = 0; i < CadenaNombres.length; i++) {
+
+			CadenaConcatenada = CadenaNombres[0] + "-" + CadenaNombres[1] + "-" + CadenaNombres[2] + "-"
+					+ CadenaNombres[3];
+		}
+		CadenaConcatenada = CadenaConcatenada.replaceAll("[AaEeIiOoUu]", "");
+		CadenaConcatenada = CadenaConcatenada.replaceAll("[A-Z]", "");
+		System.out.println(CadenaConcatenada);
+		return CadenaConcatenada;
+
+	}
 	
 
 }
