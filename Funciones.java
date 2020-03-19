@@ -1,7 +1,13 @@
 
 public class Funcion {
 	
-	public Boolean Funcion1(int num) {
+	import java.util.Arrays;
+
+public class Funcion {
+
+	
+
+public Boolean Funcion1(int num) {
 		
 		Boolean resp = null;
 		
@@ -38,7 +44,24 @@ public class Funcion {
 		return resp;	
 		
 	}
-	
+		public int fucion3(int numero) {
+		
+		
+		int x = 7;
+		int ymenos = 250-50;
+		int ymas = 250+50;
+		int rang = (int) Math.floor(Math.random()*(ymas+ymenos));// Arreglar esto y ya
+		int result = 0;
+
+
+		if (numero%x == 0) {
+		result = numero%rang;
+		}
+		return result;
+		
+		
+
+	}
 	public String Funcion4(String[] CadenaNombres) {
 
 		String CadenaConcatenada = null;
@@ -106,5 +129,26 @@ public class Funcion {
 		return cadenaDeNombres;
 	}
 
+
+public boolean funcion8(String[] alumnos, int[][] tiemposDeTrabajos){
+	       
+		int t = 500;
+		        int sumatorio = 0;
+		        boolean result = true;
+		       
+		        for(int i = 0; i < tiemposDeTrabajos.length; i++){
+		            sumatorio = 0;
+		            for(int j = 0; j < tiemposDeTrabajos.length; j++){
+		                sumatorio += tiemposDeTrabajos[j][i];
+		            }
+
+		            if(sumatorio<=t){
+		                result = false;
+		            }
+		        }
+		       
+		        return result;
+
+		}
 }
 
